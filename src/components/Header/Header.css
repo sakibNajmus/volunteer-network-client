@@ -1,0 +1,42 @@
+.banner{
+    position: absolute;
+}
+
+.menu-item{
+    position: relative;
+}
+
+.nav-link{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10pt;
+}
+
+.search-box{
+    margin-top: 15%;
+    text-align: center;
+    border: none;
+}
+
+.search-box h2{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+.search-box form input{
+    border-radius: 5px 0 0 5px;
+    border: 1px solid gray;
+    padding-left: 10px;
+}
+
+.search-box form {
+    display:flex;
+    justify-content:center;
+}
+
+.search-button{    
+    border-radius: 0 5px 5px 0;
+}
+
+.row{
+    margin-top: 100px;
+}

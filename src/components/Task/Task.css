@@ -1,0 +1,22 @@
+.task-list img{
+    height: 300px;
+}
+
+.task-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #3F90FC;
+    height:60px;
+    margin-bottom: 30px;
+    border-radius: 0 0 10px 10px;
+    margin-top: -60px;
+    position: relative;
+    z-index: 1;
+}
+
+.task-title h5{
+    text-decoration: none;
+    color: white;
+}
