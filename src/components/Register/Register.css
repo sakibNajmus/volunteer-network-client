@@ -12,12 +12,11 @@
 
 .registration-form{
     text-align: center;
-    border: 1px solid gray;
+    border: 2px solid gray;
     padding: 30px;
     border-radius:5px;
 }
 
 .registration-form input{
     border: none;
-    border-bottom: 1 px solid gray;
 }

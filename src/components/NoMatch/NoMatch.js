@@ -1,17 +1,11 @@
-import React, { useState } from 'react';
-import './Header.css'
+import React from 'react';
 import banner from '../../images/banner.jpg'
 import logo from '../../logos/Group 1329.png'
 import { Link } from 'react-router-dom';
-import fakeData from '../../fakeData';
-import Task from '../Task/Task';
 
-const Header = () => {
-
-    const taskList = fakeData;
-    const [tasks, setTasks] = useState(taskList);
+const NoMatch = () => {
     return (
-        <div>
+        <div>            
             <div class="banner">
                 <img class="img-fluid" src={banner} alt=""/>
             </div>
@@ -48,20 +42,11 @@ const Header = () => {
                 </div>
                 </nav>
                 <div class="search-box">
-                    <h2>I grow by helping people in need.</h2>
-                    <form action="">
-                        <input type="text" name="" placeholder="Search..." id=""/><button class="btn btn-primary search-button">Search</button>
-                    </form>
-                </div>
-
-                <div class="row">
-                    {
-                        tasks.map(task => <Task task={task}></Task>)
-                    }
+                    <h2>This Page is Under Construction...</h2>                    
                 </div>
             </div>
         </div>
     );
 };
 
-export default Header;
+export default NoMatch;

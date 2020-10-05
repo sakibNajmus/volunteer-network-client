@@ -10,9 +10,9 @@ const Task = ({task}) => {
         history.push(`/register/${task.id}`)
     }
     return (
-        <div className="col-md-3 task-list">
+        <div class="col-md-3 task-list">
                 <Link onClick={handleRegister}><img src={require (`../../images/${task.image}`)} alt=""/></Link>
-                <div className="task-title">
+                <div class="task-title">
                     <Link onClick={handleRegister}><h5>{task.name}</h5></Link>
                 </div>
         </div>
